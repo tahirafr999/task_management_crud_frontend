@@ -35,7 +35,6 @@ export default function Login() {
             router.push('/dashboard');
         } catch (error) {
             console.error('Login error:', error);
-            toast.error('Login failed! Please try again.');
         }
     };
 

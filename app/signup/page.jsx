@@ -35,7 +35,6 @@ export default function Signup() {
             router.push('/dashboard');
         } catch (error) {
             console.error('Signup error:', error);
-            toast.error('Signup failed! Please try again.');
         }
     };
 
